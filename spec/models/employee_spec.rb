@@ -14,5 +14,6 @@ RSpec.describe Employee, type: :model do
     it { should have_one(:phone) }
     it { should have_one(:email) }
     it { should have_one(:address) }
+    it { should have_many(:searches)}
   end
 end
